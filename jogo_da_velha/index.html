@@ -9,18 +9,18 @@
 		<script src="js/jogo.js"></script>
 	</head>
 
-	<body>
+	<body style="background: url(imagens/fundo.png);">
 
-		<div class="container" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+		<div class="container bg-white" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border: 5px solid black; border-radius: 20px; box-shadow: 3px 5px 5px black;">
 
-		<div class="border border-success rounded p-5" id="pagina_inicial" align="center">
+		<div class="p-5" id="pagina_inicial" align="center">
 
-			<table >
+			<table>
 
 				<tbody>
 
 					<tr>
-						<td colspan="3" align="center">JOGO DA VELHA</td>
+						<td colspan="3" align="center"><b>JOGO DA VELHA</b></td>
 					</tr>
 
 					<tr>
@@ -47,7 +47,7 @@
 
 		</div>
 
-		<div id="palco_jogo" class="border border-success rounded p-3 mt-5" align="center" style="display: none;">
+		<div id="palco_jogo" class="p-5" align="center" style="display: none;">
 
 			<div style="display: inline-block;">
 
@@ -65,15 +65,15 @@
 
 					<tr>
 
-						<td style="border-bottom: solid 1px red; border-right: solid 1px red;">
+						<td style="border-bottom: solid 5px black; border-right: solid 5px black;">
 							<div class="jogada" id="a-1" style="width: 100px; height: 100px;"></div>
 						</td>
 
-						<td style="border-bottom: solid 1px red; border-right: solid 1px red;">
+						<td style="border-bottom: solid 5px black; border-right: solid 5px black;">
 							<div class="jogada" id="a-2" style="width: 100px; height: 100px;"></div>
 						</td>
 
-						<td style="border-bottom: solid 1px red;">
+						<td style="border-bottom: solid 5px black;">
 							<div class="jogada" id="a-3" style="width: 100px; height: 100px;"></div>
 						</td>
 
@@ -81,15 +81,15 @@
 
 					<tr>
 
-						<td style="border-bottom: solid 1px red; border-right: solid 1px red;">
+						<td style="border-bottom: solid 5px black; border-right: solid 5px black;">
 							<div class="jogada" id="b-1" style="width: 100px; height: 100px;"></div>
 						</td>
 
-						<td style="border-bottom: solid 1px red; border-right: solid 1px red;">
+						<td style="border-bottom: solid 5px black; border-right: solid 5px black;">
 							<div class="jogada" id="b-2" style="width: 100px; height: 100px;"></div>
 						</td>
 
-						<td style="border-bottom: solid 1px red;">
+						<td style="border-bottom: solid 5px black;">
 							<div class="jogada"  id="b-3" style="width: 100px; height: 100px;"></div>
 						</td>
 
@@ -97,11 +97,11 @@
 
 					<tr>
 
-						<td style="border-right: solid 1px red;">
+						<td style="border-right: solid 5px black;">
 							<div class="jogada" id="c-1" style="width: 100px; height: 100px;"></div>
 						</td>
 
-						<td style="border-right: solid 1px red;">
+						<td style="border-right: solid 5px black;">
 							<div class="jogada" id="c-2" style="width: 100px; height: 100px;"></div>
 						</td>
 
